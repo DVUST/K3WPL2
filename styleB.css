@@ -23,7 +23,7 @@ html, body{
 }
 
 .container-1{
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
     height: 100%;
 }
 
@@ -33,15 +33,11 @@ html, body{
     border-bottom: 1px solid #3f3f3f;
 }
 
-.container-2 div{
-    height: 100%;
-}
-
-.container-2 > *{
+.container-2 > p, a{
     padding: 10px;
 }
 
-.container-4 > *{
+.container-4 > p, a{
     padding: 10px;
 }
 
@@ -51,10 +47,6 @@ html, body{
 
 .right{
     float: right;
-}
-
-.smol{
-    height: 100px;
 }
 
 li{
