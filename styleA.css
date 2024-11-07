@@ -35,24 +35,25 @@ html, body{
     align-items: center;
 }
 
-.container-2 div{
-    height: 100%;
+.container-1 p, .container-2 div{
+    height: 100%;    
 }
 
 .container-2 > *{
-    padding: 10px;
+    margin: 10px;
 }
 
 .container-3{
     flex-direction: column;
 }
 
-.container-4 > *{
-    padding: 10px;
-}
-
 .container-4{
     align-items: center;
+}
+
+
+.container-4 > :nth-child(2){
+    padding-left: 10px;    
 }
 
 .right{
@@ -80,4 +81,23 @@ li a:hover{
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 232px;
+}
+
+.brd-r{
+    border-right: 1px solid #3f3f3f;
+}
+
+.brd-l{
+    border-left: 1px solid #3f3f3f;
+}
+
+.brd-b{
+    border-bottom: 1px solid #3f3f3f;
 }

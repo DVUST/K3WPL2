@@ -67,3 +67,22 @@ li a:hover{
     top: 50%;
     transform: translate(0, -50%);
 }
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 232px;
+}
+
+.brd-r{
+    border-right: 1px solid #3f3f3f;
+}
+
+.brd-l{
+    border-left: 1px solid #3f3f3f;
+}
+
+.brd-b{
+    border-bottom: 1px solid #3f3f3f;
+}

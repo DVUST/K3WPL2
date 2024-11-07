@@ -54,3 +54,10 @@ li a{
 li a:hover{
     color: #c28035;
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 232px;
+}
